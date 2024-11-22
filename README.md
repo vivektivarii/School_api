@@ -76,9 +76,10 @@ json
 CREATE TABLE schools (
 id INT PRIMARY KEY AUTO_INCREMENT,
 name VARCHAR(255) NOT NULL,
-address TEXT NOT NULL,
-latitude FLOAT NOT NULL,
-longitude FLOAT NOT NULL
+address VARCHAR(255) NOT NULL,
+latitude FLOAT ,
+longitude FLOAT,
+created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
 ## Error Handling
