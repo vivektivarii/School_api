@@ -77,8 +77,8 @@ CREATE TABLE schools (
 id INT PRIMARY KEY AUTO_INCREMENT,
 name VARCHAR(255) NOT NULL,
 address TEXT NOT NULL,
-latitude DECIMAL(10, 8) NOT NULL,
-longitude DECIMAL(11, 8) NOT NULL
+latitude FLOAT NOT NULL,
+longitude FLOAT NOT NULL
 );
 
 ## Error Handling
